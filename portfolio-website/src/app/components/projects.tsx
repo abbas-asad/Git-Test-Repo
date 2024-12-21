@@ -8,7 +8,7 @@ const projectData = [
     {
         id: 1,
         title: "Video Streaming Service",
-        category: "FULL-STACK",
+        category: "FULL-STAn    CK",
         description: "A scalable platform for video-on-demand with personalized recommendations and seamless user experience.",
         imageUrl: "/project1.png",
         visitLink: "https://netflix-stream.vercel.app/",
