@@ -4,6 +4,7 @@ import {
   SheetTrigger,
 } from "@/components/ui/sheet";
 import { Menu } from 'lucide-react';
+import Image from "next/image";
 import Link from 'next/link';
 
 export default function Navbar() {
@@ -20,7 +21,9 @@ export default function Navbar() {
       <div className="container mx-auto flex justify-between items-center py-6 px-6">
         {/* Logo */}
         <Link href="/" className="flex items-center space-x-3">
-          <img
+          <Image
+           height={"500"}
+           width={"500"}
             src="/abbaslogo.png"
             alt="Abbas Logo"
             className="h-10 w-10 rounded-full"

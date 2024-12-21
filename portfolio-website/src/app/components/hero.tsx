@@ -1,7 +1,7 @@
 "use client"
 import Image from "next/image"
 import Link from "next/link"
-import { Typewriter, Cursor } from 'react-simple-typewriter'
+import { Typewriter } from 'react-simple-typewriter'
 import Section from "./layout/section";
 
 
@@ -66,9 +66,11 @@ export default function Hero() {
 
           <div className="flex justify-center lg:justify-end">
             <div className="relative">
-              <img
+              <Image
                 src="/profile.png"
                 alt="Himanshu Avatar"
+                height={'500'}
+                width={'500'}
                 // width="800px"
                 // height={500}
                 className="relative z-10"
